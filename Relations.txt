@@ -1,0 +1,11 @@
+Song(SongId,Title,NameOfTheBand)
+
+Karaoke(KaraokeFileId,Version,SongId)
+
+People(UserId,UserName,Password,PhoneNumber)
+
+Contributor(ContributorId,Name,Role)
+
+SongSelection(UserId,KaraokeFileId,Time,AmountPaid)
+
+SongContributor(SongId,ContributorId)
